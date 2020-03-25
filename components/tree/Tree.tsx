@@ -143,10 +143,7 @@ export default class Tree extends React.Component<TreeProps, any> {
   static defaultProps = {
     checkable: false,
     showIcon: false,
-    motion: {
-      ...collapseMotion,
-      motionAppear: false,
-    },
+    motion: undefined,
     blockNode: false,
   };
 
