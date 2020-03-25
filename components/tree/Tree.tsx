@@ -5,7 +5,6 @@ import { DataNode } from 'rc-tree/lib/interface';
 
 import DirectoryTree from './DirectoryTree';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';
-import collapseMotion from '../_util/motion';
 import renderSwitcherIcon from './utils/iconUtil';
 
 export interface AntdTreeNodeAttribute {
