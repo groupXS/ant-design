@@ -45,7 +45,7 @@
   "unpkg": "dist/antd.min.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "install": "npm install && npm run build",
+    "install": "npm ci && npm run build",
     "api-collection": "antd-tools run api-collection",
     "authors": "git log --format='%aN <%aE>' | sort -u | grep -v 'users.noreply.github.com' | grep -v 'gitter.im' | grep -v '.local>' | grep -v 'alibaba-inc.com' | grep -v 'alipay.com' | grep -v 'taobao.com' > AUTHORS.txt",
     "build": "npm run compile && npm run dist",
